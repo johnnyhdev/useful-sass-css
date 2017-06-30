@@ -47,7 +47,7 @@
  *  @access public
  *  @param {String} $element - element's name
  */
-@mixin m-hover-focus($element) {
+@mixin e-hover-focus($element) {
     &--#{$element}:hover, &--#{$element}:focus {
         @content;
     }
